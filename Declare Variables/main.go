@@ -29,7 +29,7 @@ func ex2() {
 
 	x, y, z := 20, 15.5, "Gopher!"
 	_, _, _, _, _, _, _ = a, b, c, d, x, y, z //using blank identifier to mute the unused variable error
-	fmt.Print("SUCCESS2")
+	fmt.Println("SUCCESS2")
 }
 
 func ex3() {
@@ -42,9 +42,9 @@ func ex3() {
 
 func ex4() {
 	version := "3.1"
-
+	_ = version
 	name := "Golang"
-	fmt.Println(name, "SUCCES4")
+	fmt.Println(name, "SUCCESS4")
 }
 
 func main() {
