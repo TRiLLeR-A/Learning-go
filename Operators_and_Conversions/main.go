@@ -5,7 +5,8 @@ import (
 	"strconv"
 )
 
-func main() {
+// Exercise 1
+func ex1() {
 	var i = 3
 	var f = 3.2
 	var s1, s2 = "3.14", "5"
@@ -33,5 +34,23 @@ func main() {
 	} else {
 		fmt.Println("Cannot convert string to float64.")
 	}
+	fmt.Println("SUCCESS1")
+}
 
+// Exercise 2
+func ex2() {
+	x, y := 4, 5.1
+
+	z := float64(x) * y
+	fmt.Println(z)
+
+	a := 5
+	b := 6.2 * float64(a)
+	fmt.Println(b)
+	fmt.Println("SUCCESS2")
+}
+
+func main() {
+	ex1()
+	ex2()
 }

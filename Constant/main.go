@@ -61,11 +61,11 @@ func ex5() {
 // Exercise 6
 func ex6() {
 	const (
-		Jun = 6
-		Jul = iota
-		Aug = iota
+		Jun = iota + 6
+		Jul
+		Aug
 	)
-	fmt.Println("Success6")
+	fmt.Println(Jun, Jul, Aug, "Success6")
 }
 
 func main() {
