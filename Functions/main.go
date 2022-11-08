@@ -113,5 +113,4 @@ func main() {
 	fmt.Printf("%T \n", a)
 	a(23)
 	fmt.Println("\nSeccess9")
-
 }
