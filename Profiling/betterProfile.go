@@ -2,8 +2,7 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/pkg/profile"
+	// "github.com/pkg/profile"
 )
 
 var VARIABLE int
@@ -31,7 +30,7 @@ func Multiply(a, b int) int {
 }
 
 func main() {
-	defer profile.Start(profile.ProfilePath("/tmp")).Stop()
+	// defer profile.Start(profile.ProfilePath("/tmp")).Stop()
 
 	total := 0
 	for i := 2; i < 200000; i++ {
